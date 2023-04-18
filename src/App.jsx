@@ -5,7 +5,7 @@ import About from './components/about/About'
 import Education from './components/education/Education'
 import Skills from './components/skills/Skills'
 // import Service from './components/service/Service'
-import Portfolio from './components/portfolio/Portfolio'
+import Project from './components/project/Project'
 // import Testimonials from './components/testimonials/Testimonials'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
@@ -19,7 +19,7 @@ const App = () => {
      <Education/>
      <Skills/>
      {/* <Service/> */}
-     <Portfolio/>
+     <Project/>
      {/* <Testimonials/> */}
      <Contact/>
      <Footer/>

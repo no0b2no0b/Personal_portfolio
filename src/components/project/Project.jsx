@@ -1,5 +1,5 @@
 import React from "react";
-import "./portfolio.css";
+import "./project.css";
 import IMG1 from "../../assets/portfolio1.jpg";
 import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
@@ -57,22 +57,22 @@ const data = [
   // },
 ];
 
-const Portfolio = () => {
+const Project = () => {
   return (
-    <section id="portfolio">
+    <section id="project">
       <h5>My Recent Works</h5>
       <h2>Projects</h2>
 
-      <div className="container portfolio__container">
+      <div className="container project__container">
         {
           data.map(({id,image,title,github,demo}) => {
             return(
-              <article key={id} className="portfolio__item">
-                <div className="portfolio__item-image">
+              <article key={id} className="project__item">
+                <div className="project__item-image">
                   <img src={image} alt={title} />
                 </div>
                   <h3>{title}</h3>
-                  <div className="portfolio__item-cta">
+                  <div className="project__item-cta">
                     <a href={github} className="btn">Github</a>
                     {/* <a href={demo} className="btn btn-primary" target='_blank'>Live Demo</a> */}
                   </div>
@@ -139,4 +139,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Project;
