@@ -67,7 +67,7 @@ const Education = () => {
             <article className="education_details">
               <BsPatchCheckFill className="education__details-icon" />
               <div>
-                <h4>Rao Pahlas Singh Ser. Sec. School, Khatod</h4>
+                <h4>Rao Pahlad Singh Sr. Sec. School, Khatod</h4>
                 <small className="row1 text-light">2016 - 2018</small>
                 <small className="row1 text-light">Non-Medical</small>
                 {/* <small className="row1 text-light">
