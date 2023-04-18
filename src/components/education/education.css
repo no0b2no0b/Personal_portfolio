@@ -1,10 +1,13 @@
-.experience__container{
-    display: block;
+.education__container{
+    display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
 }
+/* .education__frontend{
+    gap: 2rem;
+} */
 
-.experience__container > div{
+.education__container > div{
     background: var(--color-bg-variant);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
@@ -12,26 +15,27 @@
     transition: var(--transition);
 }
 
-.experience__container > div:hover{
+.education__container > div:hover{
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
 }
 
-.experience__container > div h3{
+.education__container > div h3{
     text-align: left;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     color: var(--color-primary);
 
 }
 
-.experience__content{
-    display: grid;
+.education__content{
+    display: block;
+    /* gap: 2rem; */
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
 }
 
-.experience__details{
+.education__details{
     display: list-item;
     gap: 1rem ;
 }
@@ -39,7 +43,7 @@
     display: list-item;
 }
 
-.experience__details-icon{
+.education__details-icon{
     margin-top: 6px;
     color: var(--color-primary);
 }
@@ -47,17 +51,17 @@
 /*>>>>>>>>>>>>>>>MEDIA QUERIES (MEDIUM DEVICES)<<<<<<<<<<<<<<<<<<<*/
 
 @media screen and (max-width : 1024px) {
-    .experience__container{
+    .education__container{
         grid-template-columns: 1fr;
     }
 
-    .experience__container > div{
+    .education__container > div{
         width: 80%;
         padding: 2rem;
         margin: 0 auto;
     }
 
-    .experience__content{
+    .education__content{
         padding: 1rem;
     }
   }
@@ -65,11 +69,11 @@
   /*>>>>>>>>>>>>>>>MEDIA QUERIES (SMALL DEVICES)<<<<<<<<<<<<<<<<<<<*/
   
   @media screen and (max-width : 600px) {
-    .experience__container{
+    .education__container{
         gap: 1rem;
     }
 
-    .experience__container > div{
+    .education__container > div{
         width: 100%;
         padding: 2rem 1rem;
     }

@@ -4,64 +4,64 @@ import IMG1 from "../../assets/portfolio1.jpg";
 import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
 import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
+// import IMG5 from "../../assets/portfolio5.png";
+// import IMG6 from "../../assets/portfolio6.jpg";
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: "Nothing",
-    github: "https://github.com",
-    demo: "https://cdn.dribbble.com/userupload/5823235/file/original-cb645580a32fdb832ac71181d7078e29.png?compress=1&resize=752x",
+    title: "Bytespaces E-commerce",
+    github: "https://github.com/no0b2no0b/WebTask/tree/main/E-Commerce",
+    // demo: "https://cdn.dribbble.com/userupload/5823235/file/original-cb645580a32fdb832ac71181d7078e29.png?compress=1&resize=752x",
   },
 
   {
     id: 2,
     image: IMG2,
-    title: "Nothing",
-    github: "https://github.com",
-    demo: "https://cdn.dribbble.com/userupload/5823236/file/original-28a84b2992ad6375bc3e4cdd0d162df8.png?compress=1&resize=752x",
+    title: "JTGEates",
+    github: "https://github.com/no0b2no0b/WebTask/tree/main/Delivery%20App",
+    // demo: "https://cdn.dribbble.com/userupload/5823236/file/original-28a84b2992ad6375bc3e4cdd0d162df8.png?compress=1&resize=752x",
   },
 
   {
     id: 3,
     image: IMG3,
-    title: "Nothing",
-    github: "https://github.com",
-    demo: "https://cdn.dribbble.com/userupload/5823239/file/original-77e2aa307d30a8a8950660ac545b7122.png?compress=1&resize=752x",
+    title: "Weather App",
+    github: "https://github.com/no0b2no0b/WebTask/tree/main/Weather%20App",
+    // demo: "https://cdn.dribbble.com/userupload/5823239/file/original-77e2aa307d30a8a8950660ac545b7122.png?compress=1&resize=752x",
   },
 
   {
     id: 4,
     image: IMG4,
-    title: "Nothing",
-    github: "https://github.com",
-    demo: "https://cdn.dribbble.com/userupload/5823240/file/original-976b57cfb52f687e4fe03225f0b4c75f.png?compress=1&resize=752x",
+    title: "Drum Kit",
+    github: "https://github.com/no0b2no0b/30-Days_of_Javascript/tree/master/Drum_Kit",
+    // demo: "https://cdn.dribbble.com/userupload/5823240/file/original-976b57cfb52f687e4fe03225f0b4c75f.png?compress=1&resize=752x",
   },
 
-  {
-    id: 5,
-    image: IMG5,
-    title: "Nothing",
-    github: "https://github.com",
-    demo: "https://cdn.dribbble.com/userupload/5823241/file/original-ed17ed8d33231a76d0d44a7b8e6d015d.png?compress=1&resize=752x",
-  },
+  // {
+  //   id: 5,
+  //   image: IMG5,
+  //   title: "Nothing",
+  //   github: "https://github.com",
+  //   demo: "https://cdn.dribbble.com/userupload/5823241/file/original-ed17ed8d33231a76d0d44a7b8e6d015d.png?compress=1&resize=752x",
+  // },
 
-  {
-    id: 6,
-    image: IMG6,
-    title: "Nothing",
-    github: "https://github.com",
-    demo: "https://cdn.dribbble.com/userupload/5823238/file/original-d3d863d739f84435f66e2c0638d8add4.png?compress=1&resize=752x",
-  },
+  // {
+  //   id: 6,
+  //   image: IMG6,
+  //   title: "Nothing",
+  //   github: "https://github.com",
+  //   demo: "https://cdn.dribbble.com/userupload/5823238/file/original-d3d863d739f84435f66e2c0638d8add4.png?compress=1&resize=752x",
+  // },
 ];
 
 const Portfolio = () => {
   return (
     <section id="portfolio">
       <h5>My Recent Works</h5>
-      <h2>Portfolio</h2>
+      <h2>Projects</h2>
 
       <div className="container portfolio__container">
         {
@@ -74,7 +74,7 @@ const Portfolio = () => {
                   <h3>{title}</h3>
                   <div className="portfolio__item-cta">
                     <a href={github} className="btn">Github</a>
-                    <a href={demo} className="btn btn-primary" target='_blank'>Live Demo</a>
+                    {/* <a href={demo} className="btn btn-primary" target='_blank'>Live Demo</a> */}
                   </div>
               </article>
             )
