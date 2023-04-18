@@ -59,6 +59,14 @@ const Skills = () => {
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
+
+            <article className="skills_details">
+              <BsPatchCheckFill className="skills__details-icon" />
+              <div>
+                <h4>Dart</h4>
+                <small className="text-light">Basic</small>
+              </div>
+            </article>
           </div>
         </div>
 
@@ -71,7 +79,7 @@ const Skills = () => {
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">skillsd</small>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
 
@@ -103,7 +111,23 @@ const Skills = () => {
               <BsPatchCheckFill className="skills__details-icon" />
               <div>
                 <h4>MySQL</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Basic</small>
+              </div>
+            </article>
+
+            <article className="skills_details">
+              <BsPatchCheckFill className="skills__details-icon" />
+              <div>
+                <h4>Flutter</h4>
+                <small className="text-light">Basic</small>
+              </div>
+            </article>
+
+            <article className="skills_details">
+              <BsPatchCheckFill className="skills__details-icon" />
+              <div>
+                <h4>Firebase</h4>
+                <small className="text-light">Basic</small>
               </div>
             </article>
           </div>
